@@ -1,5 +1,105 @@
 @import "tailwindcss";
 
+@theme{
+  /* PALETA DE COLORES */
+   --color-episrubi-background: #FFA932;
+   --color-episrubi-primary: #9cff6b;
+   --color-episrubi-secondary: #84ee4f;
+   --color-episrubi-accent: #98ff38;
+  /*FIN PALETA DE COLORES */
+  --font-bespoke-300: "BespokeSerifLight";
+  --font-bespoke-italic-300: "BespokeSerifLightItalic";
+
+  --font-bespoke-400: "BespokeSerifRegular";
+
+  --font-bespoke-500: "BespokeSerifMedium";
+  --font-bespoke-italic-500: "BespokeSerifMediumItalic";
+
+  --font-bespoke-700: "BespokeSerifBold";
+  --font-bespoke-italic-700: "BespokeSerifBoldItalic";
+
+  --font-bespoke-800: "BespokeSerifExtraBold";
+  --font-bespoke-italic-800: "BespokeSerifExtraBoldItalic";
+
+
+}
+
+@font-face {
+  font-family: BespokeSerifLight;
+  font-style: bold;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: BespokeSerifLightItalic;
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-LightItalic.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: BespokeSerifRegular;
+  font-style: bold;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: BespokeSerifMedium;
+  font-style: bold;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: BespokeSerifMediumItalic;
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-MediumItalic.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: BespokeSerifBold;
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: BespokeSerifBoldItalic;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-BoldItalic.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: BespokeSerifExtraBold;
+  font-style: extrabold;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-Extrabold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: BespokeSerifExtraBoldItalic;
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/BespokeSerif-ExtraboldItalic.woff2") format("woff2");
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,7 +112,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark){
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
