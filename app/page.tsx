@@ -31,7 +31,7 @@ export default function Page() {
 
             <div className="relative flex flex-col md:items-start items-start gap-6 md:p-10">
 
-              <h1 className="w-fit font-bespoke-400 md:text-4xl text-3xl uppercase">Vestuario laboral <br/><span className="text-center font-bespoke-800 text-episrubi-background  text-[45px] md:text-9xl">personalizado</span><br/> <span className="block w-full text-right font-bespoke-500 md:text-7xl text-3xl">en Barcelona</span></h1>
+              <h1 className="w-fit font-bespoke-400 md:text-4xl text-3xl uppercase">Vestuario laboral <br/><span className="text-center font-bespoke-800 text-episrubi-background  text-[42px] md:text-9xl">personalizado</span><br/> <span className="block w-full text-right font-bespoke-500 md:text-7xl text-3xl">en Barcelona</span></h1>
 
               <p className="font-bespoke-400 md:text-2xl text-md">Ropa de trabajo EPIs, calzado de seguridad, vestuario personalizado y productos de limpieza profesional</p>
 
