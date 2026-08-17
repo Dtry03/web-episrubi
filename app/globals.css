@@ -99,6 +99,62 @@
   src: url("/fonts/BespokeSerif-ExtraboldItalic.woff2") format("woff2");
 }
 
+/* ANIMACIONES */
+
+.loader{
+ opacity: 1;
+ animation: text-disappear 0.8s ease 4s forwards;
+}
+
+.intro-animation-up{
+  transform: translateY(230px);
+  animation: text-move 0.8s ease forwards;
+}
+
+.intro-animation-left{
+  opacity: 0;
+  transform: translateX(230px);
+  animation: text-move-x 0.8s ease 1s forwards;
+}
+
+.intro-animation{
+  opacity: 0;
+  animation: text-move 1s ease 2s forwards;
+}
+
+.appear-animation{
+  opacity: 0;
+  animation: text-appear 0.8s ease forwards;
+}
+
+@keyframes text-move {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes text-move-x {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes text-disappear {
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes text-appear {
+    to{
+      opacity: 1;
+    }
+  }
+
+
 
 :root {
   --background: #ffffff;

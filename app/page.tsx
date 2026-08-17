@@ -1,7 +1,27 @@
+import { RiFileListLine } from "react-icons/ri";
+import { LuPackageCheck } from "react-icons/lu";
+import { HiOutlineTruck } from "react-icons/hi";
+import { FaArrowRight } from "react-icons/fa";
+
 export default function Page() {
   return (
 
         <main className="bg-episrubi-background">
+
+          {/*LOADER SECTION*/}
+
+          <section className="loader fixed z-50 inset-0 flex md:flex-row flex-col justify-center items-center h-screen bg-episrubi-background font-bespoke-800 md:text-[150px] text-9xl">
+
+            <span className="intro-animation-left">EPIS</span><span className="intro-animation-up">RUBI</span>
+
+            <div>
+
+              <p className="intro-animation font-bespoke-400 text-3xl md:block hidden text-episrubi">EPIs,<br/> calzado <br/>limpieza profesionales</p>
+
+              <p className="intro-animation text-center italic font-bespoke-400 text-2xl md:hidden text-episrubi">EPIs, calzado y limpieza profesionales</p>
+            </div>
+
+          </section>
 
           {/*HERO SECTION*/}
 
@@ -9,20 +29,20 @@ export default function Page() {
             
             <div className="absolute top-0 left-0 bg-black/40 h-screen w-full"></div>
 
-            <div className="relative flex flex-col items-center text-center gap-3">
+            <div className="relative flex flex-col md:items-start items-center gap-6 md:p-10">
 
-              <h1 className="font-bespoke-700 md:text-6xl text-2xl">Vestuario laboral personalizado en Barcelona</h1>
+              <h1 className="w-fit font-bespoke-400 md:text-4xl text-3xl uppercase">Vestuario laboral <br/><span className="text-center font-bespoke-800 text-episrubi-background  text-5xl md:text-9xl">personalizado</span><br/> <span className="block w-full text-right font-bespoke-500 md:text-7xl text-3xl">en Barcelona</span></h1>
 
               <p className="font-bespoke-400 md:text-2xl text-md">Ropa de trabajo EPIs, calzado de seguridad, vestuario personalizado y productos de limpieza profesional</p>
 
 
-              <div className="flex hero-buttons font-bespoke-700 gap-3 md:text-2xl">
+              <div className="hero-buttons flex font-bespoke-800 gap-10 md:text-2xl">
 
-                <button className="bg-episrubi-background md:p-4 p-2 rounded-4xl hover:bg-episrubi-background">
+                <button className="bg-episrubi-background md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-105">
                   Pedir presupuesto
                 </button>
 
-                <button className="bg-episrubi-secondary md:p-4 p-2 rounded-4xl hover:bg-episrubi-accent">
+                <button className="bg-transparent backdrop-blur-2xl border-2 border-episrubi-background md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:bg-episrubi-accent hover:border-episrubi-accent hover:text-episrubi-background hover:scale-105">
                   Hablar ahora
                 </button>
 
@@ -39,25 +59,68 @@ export default function Page() {
 
           <section className="trust-section flex flex-col items-center text-center bg-episrubi-accent text-white py-25 gap-3">
 
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">Vestuario laboral homologado</h2>
+            <h2 className="appear-animation font-bespoke-800 md:text-6xl text-xl">Vestuario laboral homologado</h2>
 
             <p className="font-bespoke-400 md:text-2xl text-md">Ofrecemos un producto de calidad que cumple estrictas normativas y homologaciones</p>
 
-            <div className="certifications-grid display flex">
+            <div className="certifications-grid flex justify-between md:max-w-4xl md:w-full">
 
-              <img className="w-35 h-37" src="https://xmtextiles.com/wp-content/uploads/2022/01/en20471-150x171-1.png" alt="" />
+              <img className="w-30 h-30 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
 
-              <img className="w-35 h-37" src="https://www.buff.com/safety/wp-content/uploads/2021/11/CAT-III-EN-ISO-13688-13.png" alt="" />
+              <img className="w-45 h-45 md:w-70 md:h-70 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
 
-              <img className="w-35 h-37" src="https://materiel-pompier.com/wp-content/uploads/2024/04/EN-ISO-11612.png" alt="" />
+              <img className="w-30 h-30 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
 
             </div>
 
-            <div className="delivery bg-episrubi-secondary p-5 rounded-2xl shadow-md ">
+            <div className="delivery bg-episrubi-secondary max-w-5xl p-5 rounded-2xl shadow-md  transition-all duration-300 ease-in hover:bg-episrubi-background">
 
-              <h3 className="font-bespoke-700 md:text-4xl text-md">Un sitema de entrega al cliente rápido y seguro</h3>
+              <h3 className="font-bespoke-700 md:text-4xl text-2xl">Un sitema de entrega al cliente rápido y seguro</h3>
 
-              <p className="font-bespoke-400 md:text-2xl text-md">Proceso aquí cuando se tenga la información de logística</p>
+              <div className="delivery-section flex flex-col md:flex-row justify-center items-center gap-5 mt-5">
+
+                <div className="flex flex-col justify-center items-center">
+
+                  <RiFileListLine size={40} />
+
+                  <h4 className="font-bespoke-700 text-xl">Preparación</h4>
+
+                  <p className="font-bespoke-400 text-md">Comprobamos cada talla y certificación de seguridad</p>
+
+                </div>
+
+                <div className="flex flex-col justify-center items-center">
+
+                  <FaArrowRight size={30} />
+
+                </div>
+
+                <div className="flex flex-col justify-center items-center">
+
+                  <HiOutlineTruck size={40} />
+
+                  <h4 className="font-bespoke-700 text-xl">Envío o Recogida</h4>
+                  
+                  <p className="font-bespoke-400 text-md">Tú eliges: entrega rápida o recogida en tienda</p>
+                  
+                </div>
+
+                 <div className="flex flex-col justify-center items-center">
+
+                  <FaArrowRight size={30} />
+
+                </div>
+
+                <div className="flex flex-col justify-center items-center">
+
+                  <LuPackageCheck size={40} />
+
+                  <h4 className="font-bespoke-700 text-xl">Recepción</h4>
+
+                  <p className="font-bespoke-400 text-md">Recibes tus equipos listos para proteger a tu equipo</p>
+
+                </div>
+              </div>
 
             </div>
             
@@ -75,7 +138,7 @@ export default function Page() {
 
               <div className="product-container bg-episrubi-primary">
 
-                  <img src="" alt=""/>
+                  {/* <img src="" alt=""/> */}
 
                   <h3>CALZADO</h3>
 
