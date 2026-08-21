@@ -102,29 +102,39 @@
 /* ANIMACIONES */
 
 .loader{
+ will-change: transform;
  opacity: 1;
  animation: text-disappear 0.8s ease 4s forwards;
 }
 
 .intro-animation-up{
+  will-change: transform;
   transform: translateY(230px);
   animation: text-move 0.8s ease forwards;
 }
 
 .intro-animation-left{
+  will-change: transform;
   opacity: 0;
   transform: translateX(230px);
   animation: text-move-x 0.8s ease 1s forwards;
 }
 
 .intro-animation{
+  will-change: transform;
   opacity: 0;
   animation: text-move 1s ease 2s forwards;
 }
 
 .appear-animation{
+  will-change: transform;
   opacity: 0;
   animation: text-appear 0.8s ease forwards;
+}
+
+.carousel-logo-group{
+  will-change: transform;
+  animation: carousel-scrolling 20s linear infinite ;
 }
 
 @keyframes text-move {
@@ -154,7 +164,21 @@
     }
   }
 
+  @keyframes carousel-scrolling {
+    0% {
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
 
+ .carousel {
+    /* ... */
+    &:hover .carousel-logo-group {
+      animation-play-state: paused;
+    }
+  }
 
 :root {
   --background: #ffffff;
@@ -180,3 +204,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+

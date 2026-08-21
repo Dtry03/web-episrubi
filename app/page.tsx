@@ -2,11 +2,16 @@ import { RiFileListLine } from "react-icons/ri";
 import { LuPackageCheck } from "react-icons/lu";
 import { HiOutlineTruck } from "react-icons/hi";
 import { FaArrowRight } from "react-icons/fa";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
+import { GoDiscussionClosed } from "react-icons/go";
+import { PiTShirtLight } from "react-icons/pi";
+import { IoIosArrowDown } from "react-icons/io";
+
 
 export default function Page() {
   return (
 
-        <main className="bg-episrubi-background">
+        <main className=" overflow-hidden bg-episrubi-background">
 
           {/*LOADER SECTION*/}
 
@@ -16,9 +21,9 @@ export default function Page() {
 
             <div>
 
-              <p className="intro-animation font-bespoke-400 text-3xl md:block hidden text-episrubi">EPIs,<br/> calzado <br/>limpieza profesionales</p>
+              <p className="font-bespoke-400ntro-animation font-bespoke-400 text-3xl md:block hidden text-episrubi">EPIs,<br/> calzado <br/>limpieza profesionales</p>
 
-              <p className="intro-animation text-center italic font-bespoke-400 text-2xl md:hidden text-episrubi">EPIs, calzado y limpieza profesionales</p>
+              <p className="font-bespoke-400ntro-animation text-center italic font-bespoke-400 text-2xl md:hidden text-episrubi">EPIs, calzado y limpieza profesionales</p>
             </div>
 
           </section>
@@ -31,9 +36,9 @@ export default function Page() {
 
             <div className="relative flex flex-col md:items-start items-start gap-6 md:p-10">
 
-              <h1 className="w-fit font-bespoke-400 md:text-4xl text-3xl uppercase">Vestuario laboral <br/><span className="text-center font-bespoke-800 text-episrubi-background  text-[42px] md:text-9xl">personalizado</span><br/> <span className="block w-full text-right font-bespoke-500 md:text-7xl text-3xl">en Barcelona</span></h1>
+              <h1 className="w-fit font-bespoke-400 md:text-4xl text-xl uppercase">Vestuario laboral <br/><span className="text-center font-bespoke-800 text-episrubi-background  text-[10vw] md:text-9xl">personalizado</span><br/> <span className="block w-full text-right font-bespoke-500 md:text-7xl text-xl">en Barcelona</span></h1>
 
-              <p className="font-bespoke-400 md:text-2xl text-md">Ropa de trabajo EPIs, calzado de seguridad, vestuario personalizado y productos de limpieza profesional</p>
+              <p className="font-bespoke-400ont-bespoke-400 md:text-2xl text-md">Ropa de trabajo EPIs, calzado de seguridad, vestuario personalizado y productos de limpieza profesional</p>
 
 
               <div className="hero-buttons flex font-bespoke-800  gap-5 md:gap-10 md:text-2xl">
@@ -61,15 +66,15 @@ export default function Page() {
 
             <h2 className="appear-animation font-bespoke-800 md:text-6xl text-xl">Vestuario laboral homologado</h2>
 
-            <p className="font-bespoke-400 md:text-2xl text-md">Ofrecemos un producto de calidad que cumple estrictas normativas y homologaciones</p>
+            <p className="font-bespoke-400ont-bespoke-400 md:text-2xl text-md">Ofrecemos un producto de calidad que cumple estrictas normativas y homologaciones</p>
 
-            <div className="certifications-grid flex justify-between md:max-w-4xl md:w-full">
+            <div className="certifications-grid flex justify-center md:justify-between md:max-w-4xl md:w-full">
 
-              <img className="w-30 h-30 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
+              <img className="w-25 h-25 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
 
-              <img className="w-45 h-45 md:w-70 md:h-70 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
+              <img className="w-40 h-40 md:w-70 md:h-70 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
 
-              <img className="w-30 h-30 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
+              <img className="w-25 h-25 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105" src="/iso1.png" alt="" />
 
             </div>
 
@@ -85,7 +90,7 @@ export default function Page() {
 
                   <h4 className="font-bespoke-700 text-xl">Preparación</h4>
 
-                  <p className="font-bespoke-400 text-md">Comprobamos cada talla y certificación de seguridad</p>
+                  <p className="font-bespoke-400ont-bespoke-400 text-md">Comprobamos cada talla y certificación de seguridad</p>
 
                 </div>
 
@@ -101,7 +106,7 @@ export default function Page() {
 
                   <h4 className="font-bespoke-700 text-xl">Envío o Recogida</h4>
                   
-                  <p className="font-bespoke-400 text-md">Tú eliges: entrega rápida o recogida en tienda</p>
+                  <p className="font-bespoke-400ont-bespoke-400 text-md">Tú eliges: entrega rápida o recogida en tienda</p>
                   
                 </div>
 
@@ -117,7 +122,7 @@ export default function Page() {
 
                   <h4 className="font-bespoke-700 text-xl">Recepción</h4>
 
-                  <p className="font-bespoke-400 text-md">Recibes tus equipos listos para proteger a tu equipo</p>
+                  <p className="font-bespoke-400ont-bespoke-400 text-md">Recibes tus equipos listos para proteger a tu equipo</p>
 
                 </div>
               </div>
@@ -130,31 +135,62 @@ export default function Page() {
 
           {/*PRODUCTS SECTION*/}
 
-          <section className="products flex flex-col items-center text-center text-white py-25 gap-3">
+          <section className="products flex flex-col items-center text-center text-white py-25 gap-10">
             
-            <h2 className="font-bespoke-700 md:text-5xl text-xl" >Encuentra lo que necesitas</h2>
+            <h2 className="font-bespoke-800 md:text-6xl text-xl" >Encuentra lo que necesitas</h2>
             
-            <div className="category-grid">
+            <div className="category-grid flex flex-col md:flex-row gap-5 p-5 md:p-0">
 
-              <div className="product-container bg-episrubi-primary">
+              <div className="product-container flex flex-col justify-center items-center bg-episrubi-primary/80 gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary/80">
 
-                  {/* <img src="" alt=""/> */}
+                  <img className="w-30 h-30" src="https://www.modyf.es/media/mf_webp/png/media/stmedia/modyf/eshop/products/std.lang.all/resolutions/normal/png-1600x1600px/37812105.webp" alt=""/>
 
-                  <h3>CALZADO</h3>
+                  <h3 className="font-bespoke-800 text-2xl uppercase">Vestuario laboral</h3>
 
-                  <p></p>
+                  <p className="font-bespoke-400ont-bespoke-400 text-xl">Ropa técnica y de alta visibilidad, uniformes</p>
 
-                  <button></button>
+                  <button className="font-bespoke-700 w-50 uppercase bg-episrubi-background md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-110">
+                    Pedir ahora
+                  </button>
+
+
+              </div>
+
+              <div className="product-container flex flex-col justify-center items-center bg-episrubi-primary/80 gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary/80">
+
+                  <img className="w-30 h-30" src="https://www.modyf.es/media/mf_webp/png/media/stmedia/modyf/eshop/products/std.lang.all/resolutions/normal/png-1600x1600px/4042942.webp" alt=""/>
+
+                  <h3 className="font-bespoke-800 text-2xl uppercase">Calzado de seguridad</h3>
+
+                  <p className="font-bespoke-400ont-bespoke-400 text-xl">Zapatos y botas con protección reforzada</p>
+
+                  <button className="font-bespoke-700 w-50 uppercase bg-episrubi-background md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-110">
+                    Pedir ahora
+                  </button>
+
+              </div>
+
+              <div className="product-container flex flex-col justify-center items-center bg-episrubi-primary/80 gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary/80">
+
+                  <img className="w-30 h-30" src="https://diqmasolutions.com/wp-content/uploads/2025/11/century-casco-seguridad-cachucha-front-amarillo.png" alt=""/> 
+
+                  <h3 className="font-bespoke-800 text-2xl uppercase">Equipos EPI</h3>
+
+                  <p className="font-bespoke-400ont-bespoke-400 text-xl">Cascos, gafas, mascarillas y arneses</p>
+
+                  <button className="font-bespoke-700 w-50 uppercase bg-episrubi-background md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-110">
+                    Pedir ahora
+                  </button>
 
               </div>
 
             </div>
             
-            <div className="custom-request-banner ">
+            <div className="custom-request-banner border-4 border-episrubi-primary/80 p-10 rounded-2xl shadow-md  transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-primary/80">
 
               <h3 className="font-bespoke-700 md:text-4xl text-md">¿No encuentras lo que buscas?</h3>
 
-              <button className="font-bespoke-700 bg-episrubi-primary md:p-4 p-2 rounded-xs hover:bg-episrubi-accent md:text-2xl mt-5">
+              <button className="font-bespoke-700 bg-episrubi-secondary/80 md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:bg-episrubi-background md:text-2xl mt-5">
                 Preguntar ahora
               </button>
 
@@ -166,13 +202,19 @@ export default function Page() {
 
           {/*VALUE-ADDED SECTION*/}
 
-          <section className="value-added flex flex-col items-center text-center rounded-2xl bg-episrubi-accent text-white py-25 gap-3 md:m-20 m-5">
+          <section className="value-added relative flex flex-col items-center md:items-start text-center md:text-start rounded-4xl md:rounded-r-4xl  md:rounded-l-none bg-[url(/value-added-section.jpg)] bg-cover bg-fixed text-white p-5 md:p-25 mx-5 md:mx-0 gap-3 md:mr-100 mb-20">
+            
+            <div className="absolute top-0 left-0 h-full w-full bg-black/40  rounded-4xl md:rounded-r-4xl  md:rounded-l-none"></div>
 
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">Prendas laborales adaptadas a tu negocio</h2>
+            <div className="relative flex flex-col gap-5">
 
-            <p className="font-bespoke-400 md:text-2xl text-md">¿Necesitas que el vestuario lleve el logo o colores de tu empresa?¿Otras adaptaciones?</p>
+              <h2 className="font-bespoke-800 md:text-6xl text-xl">Prendas <span className="text-episrubi-accent/80">laborales</span> adaptadas a tu negocio</h2>
 
-            <p className="font-bespoke-400 md:text-2xl text-md">EpisRubi lleva años ofreciendo un servicio de personalización de calidad adaptado a las necesidades de cada empresa</p>
+              <p className="font-bespoke-400ont-bespoke-400  text-md md:text-2xl">¿Necesitas que el vestuario lleve el logo o colores de tu empresa?¿Otras adaptaciones?</p>
+
+              <p className="font-bespoke-400ont-bespoke-400 text-md md:text-2xl">EpisRubi lleva años ofreciendo un servicio de personalización de calidad adaptado a las necesidades de cada empresa</p>
+            
+            </div>
 
           </section>
 
@@ -180,13 +222,43 @@ export default function Page() {
 
           {/*WHY-US SECTION*/}
 
-          <section className="why-us flex flex-col items-center text-center text-white py-25 gap-3">
+          <section className="value-added relative flex flex-col items-center md:items-end  text-center md:text-end rounded-4xl md:rounded-l-4xl md:rounded-r-none bg-[url(/value-added-section.jpg)] bg-cover bg-fixed text-white p-5 md:p-25 m-5 md:m-0 gap-3 md:ml-100">
 
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">¿Por qué elegirnos?</h2>
+            <div className="absolute top-0 left-0 h-full w-full bg-black/40  rounded-4xl md:rounded-l-4xl  md:rounded-r-none"></div>
 
-            <p className="font-bespoke-400 md:text-2xl text-md">En EpisRubi llevamos más de 18 años ofreciendo en Barcelona a empresas un vestuario laboral personalizado de calidad y estrictamnete homologado junto con un asesoramiento experto</p>
+            <div className="relative flex flex-col gap-5">
 
-            <div className="features-section">
+            <h2 className="font-bespoke-800 md:text-6xl text-xl">¿Por qué <span className="text-episrubi-background/80">elegirnos?</span></h2>
+
+            <p className="font-bespoke-400ont-bespoke-400 md:text-2xl text-md">En EpisRubi llevamos más de 18 años ofreciendo en Barcelona a empresas un vestuario laboral personalizado de calidad y estrictamnete homologado junto con un asesoramiento experto</p>
+
+            <div className="features-section flex flex-col md:flex-row justify-end text-end gap-5">
+
+              <div className="flex justify-center items-center transition-all duration-300 ease-in hover:text-episrubi-background hover:scale-105 gap-2">
+
+                <AiOutlineSafetyCertificate size={20}/>
+
+                <p className="font-bespoke-400ont-bespoke-400 md:text-xl text-md italic">18 años de experiencia</p>
+
+              </div>
+
+              <div className="flex justify-center items-center transition-all duration-300 ease-in hover:text-episrubi-background hover:scale-105 gap-2">
+
+                <GoDiscussionClosed size={20}/>
+
+                <p className="font-bespoke-400ont-bespoke-400 md:text-xl text-md italic">Asesoramiento personal</p>
+
+              </div>
+
+              <div className="flex justify-center items-center transition-all duration-300 ease-in hover:text-episrubi-background hover:scale-105 gap-2">
+
+                <PiTShirtLight size={20}/>
+
+                <p className="font-bespoke-400ont-bespoke-400 md:text-xl text-md italic">Equipos personalizados</p>
+
+              </div>
+
+            </div>
 
             </div>
 
@@ -196,24 +268,155 @@ export default function Page() {
 
           {/*SOCIAL-PROOF SECTION*/}
 
-          <section className="social-proof display flex flex-col items-center text-center text-white py-25 gap-3">
+          <section className="social-proof display flex flex-col items-center text-center text-white py-25 gap-5">
 
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">Marcas de calidad</h2>
+            <h2 className="font-bespoke-800 md:text-6xl text-xl">Marcas de calidad</h2>
 
-            <p className="font-bespoke-400 md:text-2xl text-md">En EpisRubi nos preocupamos de ofrecer a las empresas las mejores marcas de vestuario laboral</p>
+            <p className="font-bespoke-400ont-bespoke-400 md:text-2xl text-md mb-10">En EpisRubi nos preocupamos de ofrecer a las empresas las mejores marcas de vestuario laboral</p>
 
-            <div className="logo-cloud">
+            <div className="carousel logo-cloud flex  scale-110">
+
+              <div className="carousel-logo-group grow-0 shrink-0 flex">
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/workteam.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/roly.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/sparco.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/payper.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/jomiba.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/solo.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/anbor.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/garys.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/jhayber.png" alt="" />
+
+              </div>
+
+              <div aria-hidden className="carousel-logo-group grow-0 shrink-0 flex">
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/workteam.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/roly.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/sparco.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/payper.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/jomiba.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/solo.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/anbor.png" alt="" />
+
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/garys.png" alt="" />
+                
+                <img className="w-50 h-50 transition-all duration-300 ease-in hover:scale-105" src="/jhayber.png" alt="" />
+
+              </div>
+
 
             </div>
 
-            <div className="client-results">
+            <div className="client-results mt-10">
                 
-              <h3 className="font-bespoke-700 md:text-4xl text-md">Pedidos recientemente</h3>
+              <h3 className="font-bespoke-800 md:text-5xl text-md">Pedidos recientemente</h3>
               
               <p className="font-bespoke-400 md:text-2xl text-md">Una galería con ropa laboral encargada por clientes reales</p>
 
-              <div className="case-studies-grid">
+              <div className="case-studies-grid grid grid-cols-2 md:grid-cols-4 gap-4 p-5 md:px-50">
 
+                <div className="grid gap-4">
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/8397/views/large/p_8397_02221_2_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9317/views/large/p_9317_23221_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9404/views/large/p_9404_55_1_1.jpg" alt=""/>
+
+                    </div>
+
+                </div>
+
+                <div className="grid gap-4">
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/8414/views/large/p_8414_2331_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9310/views/large/p_9310_601221_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/8391/views/large/p_8391_2370_1_1.jpg" alt=""/>
+
+                    </div>
+
+                </div>
+
+                <div className="grid gap-4">
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9403/views/large/p_9403_55_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9082/views/large/p_9082_110_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/6725/views/large/p_6725_23_1_1.jpg" alt=""/>
+
+                    </div>
+
+                </div>
+
+                <div className="grid gap-4">
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9402/views/large/p_9402_55_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/6503/views/large/p_6503_02_1_1.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105" src="https://static.gorfactory.es/images/models/9313/views/large/p_9313_55221_1_1.jpg" alt=""/>
+
+                    </div>
+
+                </div>
               </div>
 
             </div>
@@ -224,37 +427,37 @@ export default function Page() {
 
           {/*QUOTE-FORM SECTION*/}
 
-          <section className="quote-form flex flex-col items-center text-center text-white py-25 gap-3">
+          <section className="quote-form flex flex-col items-center text-center rounded-4xl bg-radial from-episrubi-primary/80  to-episrubi-accent/80 text-white p-5 md:py-25 m-5 md:mx-90 gap-3 shadow-xl ">
           
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">Pide presupuesto</h2>
+            <h2 className="font-bespoke-800 md:text-6xl text-xl">Pide presupuesto</h2>
 
-            <p className="font-bespoke-400 md:text-2xl text-md">Rellena este formulario rápido y te llamaremos hoy mismo</p>
+            <p className="font-bespoke-400ont-bespoke-400 md:text-2xl text-md">Rellena este formulario rápido y te llamaremos hoy mismo</p>
 
-            <div className="quote-form-container rounded-2xl bg-episrubi-secondary p-5">
+            <div className="quote-form-container rounded-2xl p-5 w-full md:min-w-3xl max-w-6xl">
 
-              <form action="" method="post" className="flex flex-col md:text-xl gap-3">
+              <form action="" method="post" className="flex flex-col text-left md:text-xl gap-3">
 
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-3">
 
-                  <label htmlFor="client-name">Nombre empresa</label>
+                  <label className="font-bespoke-400 italic" htmlFor="client-name">Nombre empresa</label>
 
-                  <input type="text" id="client-name" name="name" className="bg-episrubi-primary rounded-2xl"/>
-
-                </div>
-
-                <div className="flex flex-col">
-
-                  <label htmlFor="client-phone">Teléfono</label>
-                  
-                  <input type="tel" id="client-phone" name="phone" className="bg-episrubi-primary rounded-2xl"/>
+                  <input type="text" id="client-name" name="name" className="bg-episrubi-background font-bespoke-400 rounded-2xl p-3"/>
 
                 </div>
 
-                <div className="flex flex-col ">
+                <div className="flex flex-col gap-3">
 
-                  <label htmlFor="client-phone" className="">Producto</label>
+                  <label className="font-bespoke-400 italic" htmlFor="client-phone">Teléfono</label>
                   
-                  <select id="client-product" name="product" className="bg-episrubi-primary rounded-2xl ">
+                  <input type="tel" id="client-phone" name="phone" className="bg-episrubi-background font-bespoke-400 rounded-2xl p-3"/>
+
+                </div>
+
+                <div className="flex flex-col gap-3">
+
+                  <label className="font-bespoke-400 italic" htmlFor="client-phone">Producto</label>
+                  
+                  <select id="client-product" name="product" className="bg-episrubi-background font-bespoke-400 rounded-2xl p-3">
 
                     <option value="shoes">zapatos</option>
 
@@ -266,6 +469,15 @@ export default function Page() {
 
                 </div>
 
+                <div className="flex flex-col items-center w-full gap-3">
+
+                  <button className="font-bespoke-700 bg-episrubi-background w-full md:w-md md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-105 md:text-2xl mt-5">
+                    Preguntar ahora
+                  </button>
+
+                </div>
+
+                
               </form>
 
             </div>
@@ -276,67 +488,67 @@ export default function Page() {
 
           {/*FAQ SECTION*/}
 
-          <section className="faq-section flex flex-col items-center text-center text-white py-25 gap-3">
+          <section className="faq-section flex flex-col items-center text-center w-full text-white md:py-25 gap-3">
 
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">Dudas frecuentes de los clientes</h2>
+            <h2 className="font-bespoke-800 md:text-6xl text-xl">Dudas frecuentes de los clientes</h2>
 
-            <div className="faqs">
+            <div className="faqs flex flex-col items-start w-full max-w-4xl p-2">
 
-              <details>
+              <details className="group w-full text-left p-3">
 
-                <summary className="md:text-xl" >¿Cómo sé si los EPIs que vendéis cumplen la normativa?</summary>
+                <summary className="flex justify-between cursor-pointer font-bespoke-500 md:text-xl list-none" >¿Cómo sé si los EPIs que vendéis cumplen la normativa? <IoIosArrowDown className="text-episrubi-primary/80 transition-all duration-300 group-open:rotate-180"/></summary>
 
-                <p>Trabajamos con EPIs con marcado CE, folleto informativo en castellano y, cuando aplica, Declaración UE de conformidad o acceso a ella. Si necesitas validar una referencia antes de comprar, te facilitamos la documentación técnica correspondiente</p>
-
-              </details>
-
-              <details>
-
-                <summary className="md:text-xl">¿Me podéis ayudar a elegir el EPI correcto para mi actividad?</summary>
-
-                <p>Sí. Te asesoramos según actividad, riesgo, entorno de trabajo y tiempo de uso, para que no compres “por catálogo” algo que luego no sea adecuado</p>
+                <p className="font-bespoke-400">Trabajamos con EPIs con marcado CE, folleto informativo en castellano y, cuando aplica, Declaración UE de conformidad o acceso a ella. Si necesitas validar una referencia antes de comprar, te facilitamos la documentación técnica correspondiente</p>
 
               </details>
 
-              <details>
+              <details className="group w-full text-left p-3 border-episrubi-primary/80 border-t-2">
 
-                <summary className="md:text-xl">¿Cómo os aseguráis de que la talla y el ajuste sean correctos?</summary>
+                <summary className="flex justify-between cursor-pointer font-bespoke-500 md:text-xl list-none">¿Me podéis ayudar a elegir el EPI correcto para mi actividad? <IoIosArrowDown className="text-episrubi-primary/80 transition-all duration-300 group-open:rotate-180"/></summary>
 
-                <p>Te ayudamos a escoger la talla, ajuste y compatibilidad entre equipos para que el EPI proteja bien y sea cómodo de usar</p>
-
-              </details>
-
-              <details>
-
-                <summary className="md:text-xl">¿Qué documentación me entregáis con el pedido?</summary>
-
-                <p>Con el pedido facilitamos la información necesaria para que la empresa pueda comprar con seguridad: identificación del producto, documentación técnica disponible y, cuando corresponda, la declaración UE de conformidad junto con el resto de documentación exigible o la vía para acceder a ella</p>
+                <p className="font-bespoke-400">Sí. Te asesoramos según actividad, riesgo, entorno de trabajo y tiempo de uso, para que no compres “por catálogo” algo que luego no sea adecuado</p>
 
               </details>
 
-              <details>
+              <details className="group w-full text-left p-3 border-episrubi-primary/80 border-t-2">
 
-                <summary className="md:text-xl">¿Podéis personalizar prendas o poner nuestro logo?</summary>
+                <summary className="flex justify-between cursor-pointer font-bespoke-500 md:text-xl list-none">¿Cómo os aseguráis de que la talla y el ajuste sean correctos? <IoIosArrowDown className="text-episrubi-primary/80 transition-all duration-300 group-open:rotate-180"/></summary>
 
-                <p>Sí, en vestuario laboral y prendas corporativas. En cambio, cuando se trata de EPIs certificados, la personalización o modificación no debe comprometer el ajuste, la protección ni la certificación del producto</p>
+                <p className="font-bespoke-400">Te ayudamos a escoger la talla, ajuste y compatibilidad entre equipos para que el EPI proteja bien y sea cómodo de usar</p>
 
               </details>
 
-              <details>
+              <details className="group w-full text-left p-3 border-episrubi-primary/80 border-t-2">
 
-                <summary className="md:text-xl">¿Cuánto tardáis en dar respuesta o presupuesto?</summary>
+                <summary className="flex justify-between cursor-pointer font-bespoke-500 md:text-xl ">¿Qué documentación me entregáis con el pedido? <IoIosArrowDown className="text-episrubi-primary/80 transition-all duration-300 group-open:rotate-180"/></summary>
 
-                <p>Te confirmamos disponibilidad, plazo y alternativa equivalente antes de cerrar el pedido</p>
+                <p className="font-bespoke-400">Con el pedido facilitamos la información necesaria para que la empresa pueda comprar con seguridad: identificación del producto, documentación técnica disponible y, cuando corresponda, la declaración UE de conformidad junto con el resto de documentación exigible o la vía para acceder a ella</p>
+
+              </details>
+
+              <details className="group w-full text-left p-3 border-episrubi-primary/80 border-t-2">
+
+                <summary className="flex justify-between cursor-pointer font-bespoke-500 md:text-xl list-none">¿Podéis personalizar prendas o poner nuestro logo? <IoIosArrowDown className="text-episrubi-primary/80 transition-all duration-300 group-open:rotate-180"/></summary>
+
+                <p className="font-bespoke-400">Sí, en vestuario laboral y prendas corporativas. En cambio, cuando se trata de EPIs certificados, la personalización o modificación no debe comprometer el ajuste, la protección ni la certificación del producto</p>
+
+              </details>
+
+              <details className="group w-full text-left p-3 border-episrubi-primary/80 border-y-2">
+
+                <summary className="flex justify-between cursor-pointer font-bespoke-500 md:text-xl list-none">¿Cuánto tardáis en dar respuesta o presupuesto? <IoIosArrowDown className="text-episrubi-primary/80 transition-all duration-300 group-open:rotate-180"/></summary>
+
+                <p className="font-bespoke-400">Te confirmamos disponibilidad, plazo y alternativa equivalente antes de cerrar el pedido</p>
 
               </details>
 
             </div>
 
-            <div className="custom-question-banner bg-episrubi-secondary p-5 rounded-2xl">
+            <div className="custom-question-banner p-5">
 
-              <h3 className="font-bespoke-700 md:text-4xl text-md">¿Tienes más dudas?</h3>
+              <h3 className="font-bespoke-800 md:text-4xl text-md">¿Tienes más dudas?</h3>
 
-              <button className="font-bespoke-700 bg-episrubi-background md:p-4 p-2 rounded-xs hover:bg-episrubi-accent md:text-2xl mt-5">
+              <button className="font-bespoke-700 bg-episrubi-accent/80 md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary/80 md:text-xl mt-5">
                 Preguntar ahora
               </button>
 
@@ -348,13 +560,13 @@ export default function Page() {
 
           {/*CTA-WHASTAPP SECTION*/}
 
-          <section className="cta-whatsapp value-added flex flex-col items-center text-center rounded-2xl bg-episrubi-accent text-white py-25 gap-3 md:m-20 m-5">
+          <section className="cta-whatsapp value-added flex flex-col items-center text-center rounded-2xl bg-gradient-to-r from-episrubi-accent to-episrubi-primary/60  text-white shadow-xl py-25 gap-3 m-5 md:m-20 md:mt-0">
           
-            <h2 className="font-bespoke-700 md:text-5xl text-xl">¿Necesitas hacer un encargo?</h2>
+            <h2 className="font-bespoke-800 md:text-6xl text-xl">¿Necesitas hacer un encargo?</h2>
 
-            <p className="font-bespoke-400 md:text-2xl text-md">Contactanos por WhatsApp y tendras tu presupuesto hoy mismo</p>
+            <p className="font-bespoke-400ont-bespoke-400 md:text-2xl text-md">Contactanos por WhatsApp y tendras tu presupuesto hoy mismo</p>
 
-            <button className="font-bespoke-700 bg-episrubi-primary md:p-4 p-2 rounded-xs hover:bg-episrubi-secondary md:text-2xl mt-5">
+            <button className="font-bespoke-700 bg-episrubi-background md:p-4 p-2 rounded-xl transition-all duration-300 ease-in hover:scale-105 md:text-2xl mt-5">
               Obtener presupuesto
             </button>
 
