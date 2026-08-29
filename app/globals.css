@@ -3,9 +3,9 @@
 @theme{
   /* PALETA DE COLORES */
    --color-episrubi-background: #FFA932;
-   --color-episrubi-primary: #9cff6b;
-   --color-episrubi-secondary: #84ee4f;
-   --color-episrubi-accent: #98ff38;
+   --color-episrubi-primary: #7EBD46;
+   --color-episrubi-secondary: #85D147;
+   --color-episrubi-accent: #71BF2C;
   /*FIN PALETA DE COLORES */
   --font-bespoke-300: "BespokeSerifLight";
   --font-bespoke-italic-300: "BespokeSerifLightItalic";
@@ -137,6 +137,23 @@
   animation: carousel-scrolling 20s linear infinite ;
 }
 
+.item-hidden{
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.item-hidden-background{
+  opacity: 0;
+}
+
+.item-animated{
+   animation: initial-animation 0.8s ease 0.5s forwards;
+}
+
+.item-animated-background{
+  animation: initial-animation-background 0.8s ease 0.5s forwards;
+}
+
 @keyframes text-move {
   to {
     opacity: 1;
@@ -172,6 +189,20 @@
       transform: translateX(-100%);
     }
   }
+
+  @keyframes initial-animation {
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+    @keyframes initial-animation-background {
+    to{
+      opacity: 1;
+    }
+  }
+
 
  .carousel {
     /* ... */
