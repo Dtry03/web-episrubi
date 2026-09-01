@@ -117,9 +117,9 @@ export default function Page() {
 
               <img className="w-25 h-25 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/iso1.png" alt="" />
 
-              <img className="w-40 h-40 md:w-70 md:h-70 transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/iso1.png" alt="" />
+              <img className="w-40 h-40 md:w-70 md:h-70 transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/iso3.png" alt="" />
 
-              <img className="w-25 h-25 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/iso1.png" alt="" />
+              <img className="w-25 h-25 md:w-50 md:h-50 transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/iso2.png" alt="" />
 
             </div>
 
@@ -184,11 +184,11 @@ export default function Page() {
             
             <h2 className="item-hidden font-bespoke-800 md:text-6xl text-2xl uppercase" >Encuentra lo que necesitas</h2>
             
-            <div className="category-grid flex flex-col md:flex-row gap-5 p-5 md:p-0">
+            <div className="category-grid  flex flex-col md:grid md:grid-cols-12 gap-5 p-5 md:p-0">
 
-              <div className="product-container item-hidden flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
+              <div className="product-container item-hidden md:col-span-4 max-w-md flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
 
-                  <img className="w-30 h-30" src="https://www.modyf.es/media/mf_webp/png/media/stmedia/modyf/eshop/products/std.lang.all/resolutions/normal/png-1600x1600px/37812105.webp" alt=""/>
+                  <img className="w-30 h-30" src="https://diqmasolutions.com/wp-content/uploads/2026/03/OB-YOMA-V1.png" alt=""/>
 
                   <h3 className="font-bespoke-800 text-2xl uppercase">Vestuario laboral</h3>
 
@@ -201,9 +201,9 @@ export default function Page() {
 
               </div>
 
-              <div className="product-container item-hidden flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
+              <div className="product-container item-hidden md:col-span-4 max-w-md flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
 
-                  <img className="w-30 h-30" src="https://www.modyf.es/media/mf_webp/png/media/stmedia/modyf/eshop/products/std.lang.all/resolutions/normal/png-1600x1600px/4042942.webp" alt=""/>
+                  <img className="w-29 h-29" src="https://www.modyf.es/media/mf_webp/png/media/stmedia/modyf/eshop/products/std.lang.all/resolutions/normal/png-1600x1600px/4042942.webp" alt=""/>
 
                   <h3 className="font-bespoke-800 text-2xl uppercase">Calzado de seguridad</h3>
 
@@ -215,7 +215,7 @@ export default function Page() {
 
               </div>
 
-              <div className="product-container item-hidden flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
+              <div className="product-container item-hidden md:col-span-4 max-w-md  flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
 
                   <img className="w-30 h-30" src="https://diqmasolutions.com/wp-content/uploads/2025/11/century-casco-seguridad-cachucha-front-amarillo.png" alt=""/> 
 
@@ -229,7 +229,36 @@ export default function Page() {
 
               </div>
 
+              <div className="product-container item-hidden md:col-span-4 md:col-start-3 max-w-md  flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
+
+                  <img className="w-30 h-30" src="https://www.modyf.es/media/mf_webp/png/media/stmedia/modyf/eshop/products/std.lang.all/resolutions/normal/png-1600x1600px/37812105.webp" alt=""/> 
+
+                  <h3 className="font-bespoke-800 text-2xl uppercase">Alta Visbilidad</h3>
+
+                  <p className="font-bespoke-400ont-bespoke-400 text-xl">Seguridad visible en cualquier entorno</p>
+
+                  <a href="https://wa.me/689481140?text=Hola,%20quiero%20información%20sobre%20vuestros%20equipos%20EPIs"className="cursor-pointer font-bespoke-700 w-50 uppercase bg-episrubi-background p-4 rounded-xl transition-all duration-300 ease-in hover:scale-110 active:scale-110">
+                    Pedir ahora
+                  </a>
+
+              </div>
+
+              <div className="product-container item-hidden md:col-span-4 max-w-md flex flex-col justify-center items-center bg-episrubi-primary gap-5 p-5 rounded-2xl shadow-md transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-secondary active:scale-105 active:bg-episrubi-secondary">
+
+                  <img className="w-30 h-30" src="https://diqmasolutions.com/wp-content/uploads/2026/07/CIA-388XFT-IP-1.png" alt=""/> 
+
+                  <h3 className="font-bespoke-800 text-2xl uppercase">Complementos</h3>
+
+                  <p className="font-bespoke-400ont-bespoke-400 text-xl">Rodilleras, cinturones, guantes y mucho más</p>
+
+                  <a href="https://wa.me/689481140?text=Hola,%20quiero%20información%20sobre%20vuestros%20equipos%20EPIs"className="cursor-pointer font-bespoke-700 w-50 uppercase bg-episrubi-background p-4 rounded-xl transition-all duration-300 ease-in hover:scale-110 active:scale-110">
+                    Pedir ahora
+                  </a>
+
+              </div>
+
             </div>
+            
             
             <div className="custom-request-banner item-hidden border-4 border-episrubi-primary p-10 rounded-2xl shadow-md  transition-all duration-300 ease-in hover:scale-105 hover:bg-episrubi-primary active:scale-105 active:bg-episrubi-primary">
 
@@ -379,41 +408,19 @@ export default function Page() {
                 <div className="grid gap-4">
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/8397/views/large/p_8397_02221_2_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral1.jpg" alt=""/>
 
                     </div>
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9317/views/large/p_9317_23221_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral12.jpg" alt=""/>
 
                     </div>
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9404/views/large/p_9404_55_1_1.jpg" alt=""/>
-
-                    </div>
-
-                </div>
-
-                <div className="grid gap-4">
-
-                    <div>
-
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/8414/views/large/p_8414_2331_1_1.jpg" alt=""/>
-
-                    </div>
-
-                    <div>
-
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9310/views/large/p_9310_601221_1_1.jpg" alt=""/>
-
-                    </div>
-
-                    <div>
-
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/8391/views/large/p_8391_2370_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral2.jpg" alt=""/>
 
                     </div>
 
@@ -423,19 +430,19 @@ export default function Page() {
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9403/views/large/p_9403_55_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral11.jpg" alt=""/>
 
                     </div>
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9082/views/large/p_9082_110_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral3.jpg" alt=""/>
 
                     </div>
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/6725/views/large/p_6725_23_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral10.jpg" alt=""/>
 
                     </div>
 
@@ -445,19 +452,41 @@ export default function Page() {
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9402/views/large/p_9402_55_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral4.jpg" alt=""/>
 
                     </div>
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/6503/views/large/p_6503_02_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral9.jpg" alt=""/>
 
                     </div>
 
                     <div>
 
-                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="https://static.gorfactory.es/images/models/9313/views/large/p_9313_55221_1_1.jpg" alt=""/>
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral5.jpg" alt=""/>
+
+                    </div>
+
+                </div>
+
+                <div className="grid gap-4">
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral8.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral6.jpg" alt=""/>
+
+                    </div>
+
+                    <div>
+
+                        <img className="h-auto max-w-full rounded-xl transition-all duration-300 ease-in hover:scale-105 active:scale-105" src="/ropa-laboral7.jpg" alt=""/>
 
                     </div>
 
